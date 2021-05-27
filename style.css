@@ -1,0 +1,107 @@
+body{
+    background-color: #4e4e4e;
+}
+
+.nawigacja{
+    color: #ffffff;
+    text-align: center;
+    border-bottom: solid 3px #ff3dd5;
+}
+
+.t1{
+    font-size: 30px;
+}
+
+.t1:hover{
+    animation-name: t1;
+    cursor: pointer;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes t1{
+    0% { scale: 1;}
+    100% { transform: scale(1.1);}
+}
+
+.t2{
+    font-size: 18px;
+}
+
+.paragrafy{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 100px;
+    color: #ffffff;
+}
+
+.p{
+    border: solid 2px #cc00ff;
+    padding: 3%;
+}
+
+.p:hover {
+    border: solid 3px #0084ff;
+    background-color: #4e4e4e;
+    animation-name: p;
+    cursor: pointer;
+    animation-duration: 4000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes p{
+    0% { scale: 1;}
+    50% { transform: rotate(-180deg);}
+    100% { transform: scale(1);}
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.galeria{
+    margin: 50px;
+    border: solid 2px #2549e9;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    overflow: hidden;
+}
+
+.img1:hover {
+    animation-name: img1;
+    cursor: pointer;
+    animation-duration: 3000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes img1{
+    0% { scale: 1;}
+    100% { transform: scale(1.2);}
+}
+
+.img2:hover{
+    animation-name: img2;
+    cursor: pointer;
+    animation-duration: 3000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes img2{
+    0% { scale: 1;}
+    50% { transform: rotate(180deg);}
+    100% { transform: scale(1);}
+}
+
+.img3:hover{
+    animation-name: img3;
+    cursor: pointer;
+    animation-duration: 3000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes img3{
+    0% { scale: 1;}
+    100% { transform: scale(0.7);}
+}
