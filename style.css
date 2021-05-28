@@ -69,6 +69,10 @@ img{
     overflow: hidden;
 }
 
+.overflow{
+    overflow: hidden;
+}
+
 .img1:hover {
     animation-name: img1;
     cursor: pointer;
